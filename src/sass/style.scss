@@ -98,7 +98,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 p {
-    margin: 0 0 2em;
+    margin: 0.5em 0;
 }
 
 ul, ol {
@@ -1209,14 +1209,11 @@ figure figcaption {
 .has-cover .post-meta a:focus {
 	border-color: rgba(255,255,255,0.5);
 }
-.post-excerpt p {
-	margin: 0.5em 0 0;
-}
 .post-content {
-  padding: 2em 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+	margin-top: 2em;
 }
 .post-content > * {
   min-width: 100%;
@@ -1245,7 +1242,7 @@ figure figcaption {
 
 .post-info {
   font-family: 'Fira Sans', sans-serif;
-	margin-top: 2em;
+	margin: 2em 0;
 }
 .post-info-label {
   margin-right: 0.75em;
